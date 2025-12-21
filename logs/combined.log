@@ -131,3 +131,9 @@
 {"level":"info","message":"::1 - - [20/Dec/2025:13:53:16 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"body":{"emali":"admin@gmail.com","name":"Admin","password":"123456","role":"admin"},"issues":[{"code":"invalid_type","expected":"string","message":"Invalid input: expected string, received undefined","path":["email"]}],"level":"warn","message":"Signup validation failed","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [20/Dec/2025:13:53:46 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: admin@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Dec/2025:13:56:00 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 101 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User ash@code.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: ash@code.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Dec/2025:14:32:53 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 95 \"-\" \"HTTPie\"","service":"acquisitions-api"}
