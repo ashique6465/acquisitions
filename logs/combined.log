@@ -137,3 +137,11 @@
 {"level":"info","message":"User ash@code.com created successfully","service":"acquisitions-api"}
 {"level":"info","message":"User registered successfully: ash@code.com","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [20/Dec/2025:14:32:53 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 95 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User ash@code.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: ash@code.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:17:36:35 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 94 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Dec/2025:17:37:11 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [22/Dec/2025:17:35:40 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [22/Dec/2025:17:35:40 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [22/Dec/2025:18:15:44 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
